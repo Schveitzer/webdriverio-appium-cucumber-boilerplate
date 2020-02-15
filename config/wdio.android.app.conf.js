@@ -19,7 +19,8 @@ config.capabilities = [
         // For W3C the appium capabilities need to have an extension prefix
         // http://appium.io/docs/en/writing-running-appium/caps/
         // This is `appium:` for all Appium Capabilities which can be found here
-        'appium:chromedriverExecutableDir': '/Users/Alan/Downloads/chromedriver_win32',
+        'appium:chromedriverExecutableDir':
+            '/Users/Alan/Downloads/chromedriver_win32',
         'appium:deviceName': 'emulator-5554',
         'appium:platformVersion': '8.0',
         'appium:orientation': 'PORTRAIT',
@@ -34,8 +35,8 @@ config.capabilities = [
         // Read the reset strategies very well, they differ per platform, see
         // http://appium.io/docs/en/writing-running-appium/other/reset-strategies/
         'appium:noReset': true,
-        'appium:fullReset' : false,
-        'appium:dontStopAppOnReset' : true,
+        'appium:fullReset': false,
+        'appium:dontStopAppOnReset': true,
         'appium:newCommandTimeout': 60,
     },
 ];

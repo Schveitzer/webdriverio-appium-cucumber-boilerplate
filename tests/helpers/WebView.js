@@ -89,7 +89,7 @@ class WebView {
         $('=API').click();
     }
 
-    getHeaderPage(){
+    getHeaderPage() {
         const header = $('h1.postHeaderTitle');
         header.waitForDisplayed(3000);
     }

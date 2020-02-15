@@ -53,13 +53,12 @@ exports.config = {
         // For options see
         // https://github.com/webdriverio/webdriverio/tree/master/packages/wdio-appium-service
         // If you need a logs from appium server, make log equal true.
-        'log' : false,
+        log: false,
         args: {
             // For arguments see
             // https://github.com/webdriverio/webdriverio/tree/master/packages/wdio-appium-service
         },
         command: 'appium',
-
     },
 
     port: 4723,

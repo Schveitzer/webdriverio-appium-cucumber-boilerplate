@@ -18,12 +18,15 @@ When(
     },
 );
 
-Then(/^o app exibe mensagem informando que as credenciais são inválidas$/, () => {
-    assert.equal(
-        LoginScreen.errorMessage.getText().replace('×\n', ''),
-        appMessages.INVALID_EMAIL_OR_PASSWORD,
-    );
-});
+Then(
+    /^o app exibe mensagem informando que as credenciais são inválidas$/,
+    () => {
+        assert.equal(
+            LoginScreen.errorMessage.getText().replace('×\n', ''),
+            appMessages.INVALID_EMAIL_OR_PASSWORD,
+        );
+    },
+);
 
 When(/^eu faço o login como o usuário '(.+)'$/, (userType) => {
     const user = context.logins[userType];
