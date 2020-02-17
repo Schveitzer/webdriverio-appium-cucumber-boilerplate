@@ -25,11 +25,11 @@ To setup your local machine to use an Android emulator and an iOS simulator see 
 Install the dependencies:
 
 ```bash
-yarn install
+$ yarn install
 ````
 Start the appium server:
 ```bash
-appium
+$ appium
 ```
 >The `@wdio/appium-service` is integrated in this boilerplate so you don't need to start an Appium server yourself, WebdriverIO will do that for you.
 
@@ -70,9 +70,11 @@ If you want to use another language in features files, you can see this [doc](ht
 
 ## To run tests:
 ```bash
-yarn android.app
-OR
-yarn ios.app
+// For Android
+$ yarn android.app
+
+// For iOS
+$ yarn ios.app
 ```
 ## Reports
 ---------------
@@ -80,13 +82,13 @@ yarn ios.app
 Run this command to generate the allure report in the directory `./test-report/allure-report`:
 
 ```bash
-yarn report:generate
+$ yarn report:generate
 ```
 
 You can run this command to start a server on your machine and open the allure report on the browser:
 
 ```bash
-yarn report:open
+$ yarn report:open
 ```
 ## Eslint and Prettier
 ---------------
@@ -94,13 +96,13 @@ yarn report:open
 Run check lint:
 
 ```bash
-yarn code:check
+$ yarn code:check
 ```
 
 Run format lint:
 
 ```bash
-yarn code:format
+$ yarn code:format
 ```
 
 ## Locator strategy for native apps
