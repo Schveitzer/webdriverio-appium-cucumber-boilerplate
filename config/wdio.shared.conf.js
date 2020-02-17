@@ -66,10 +66,11 @@ exports.config = {
     // ====================
     // Some hooks
     // ====================
-
-    // afterStep(uri, feature, scenario) {
-    //     if (scenario.error) {
-    //         driver.takeScreenshot();
-    //     }
-    // },
+    
+    //This code is responsible for taking the screenshot in case of error and attaching it to the report
+    afterStep(uri, feature, scenario) {
+         if (scenario.error) {
+             driver.takeScreenshot();
+         }
+     },
 };
