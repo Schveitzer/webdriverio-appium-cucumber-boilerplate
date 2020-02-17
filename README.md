@@ -62,13 +62,18 @@ config.capabilities = [
     'appium:chromedriverExecutableDir': '<PATH TO CHROME DRIVER>',
 }
 ```
+## Spoken Languages
+---------------
+>In the directory `./tets/featuresAndStepsPortuguese/` there are features and steps with the keywords in Portuguese.
+
+If you want to use another language in features files, you can see this [doc](https://cucumber.io/docs/gherkin/reference/#spoken-languages) about how can you do that.  
 
 To run de tests
 ```bash
 yarn android.app
 yarn ios.app
 ```
-Reports
+## Reports
 ---------------
 
 Run this command to generate the allure report in the directory `./test-report/allure-report`:
@@ -82,7 +87,7 @@ You can run this command to start a server on your machine and open the allure r
 ```bash
 yarn report:open
 ```
-Eslint and Prettier
+## Eslint and Prettier
 ---------------
 
 Run check lint:
@@ -120,12 +125,6 @@ The same applies when we have the same identifier in both applications, but the 
         .forEach((word) => expect(cardText).contain(word));
     }, 
 ```
-Spoken Languages
----------------
->In the directory `./tets/featuresAndStepsPortuguese/` there are features and steps with the keywords in Portuguese.
-
-If you want to use another language in features files, you can see this [doc](https://cucumber.io/docs/gherkin/reference/#spoken-languages) about how can you do that.  
-
 ## Cloud vendors
 
 ### Sauce Labs Real Device Cloud
