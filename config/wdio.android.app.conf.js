@@ -20,7 +20,7 @@ config.capabilities = [
         // http://appium.io/docs/en/writing-running-appium/caps/
         // This is `appium:` for all Appium Capabilities which can be found here
         'appium:chromedriverExecutableDir':
-            '/Users/Alan/Downloads/chromedriver_win32',
+            '<PATH TO CHROME DRIVER>',
         'appium:deviceName': 'emulator-5554',
         'appium:platformVersion': '8.0',
         'appium:orientation': 'PORTRAIT',
@@ -34,6 +34,7 @@ config.capabilities = [
         ),
         // Read the reset strategies very well, they differ per platform, see
         // http://appium.io/docs/en/writing-running-appium/other/reset-strategies/
+        // With these settings the application will not be closed between tests
         'appium:noReset': true,
         'appium:fullReset': false,
         'appium:dontStopAppOnReset': true,
