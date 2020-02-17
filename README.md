@@ -63,7 +63,6 @@ config.capabilities = [
 }
 ```
 ## Spoken Languages
----------------
 >In the directory `./tets/featuresAndStepsPortuguese/` there are features and steps with the keywords in Portuguese.
 
 If you want to use another language in features files, you can see this [doc](https://cucumber.io/docs/gherkin/reference/#spoken-languages) about how can you do that.  
@@ -77,8 +76,6 @@ $ yarn android.app
 $ yarn ios.app
 ```
 ## Reports
----------------
-
 Run this command to generate the allure report in the directory `./test-report/allure-report`:
 
 ```bash
@@ -91,8 +88,6 @@ You can run this command to start a server on your machine and open the allure r
 $ yarn report:open
 ```
 ## Eslint and Prettier
----------------
-
 Run check lint:
 
 ```bash
