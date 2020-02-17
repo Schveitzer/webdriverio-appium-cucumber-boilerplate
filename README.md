@@ -5,6 +5,8 @@ Boilerplate project to run Appium tests together with WebdriverIO and BDD with c
 - iOS/Android Native Apps
 - iOS/Android Hybrid Apps
 
+This project was based on [webdriverio/appium-boilerplate](https://github.com/webdriverio/appium-boilerplate/)
+
 > This boilerplate uses the WebdriverIO native demo app which, the version of the app used in this boilerplate is in the apps folder, other versions can be found at this link [release](https://github.com/webdriverio/native-demo-app/releases).
 > Before running tests, please replace the App in the `./apps` directory with your app.
 
