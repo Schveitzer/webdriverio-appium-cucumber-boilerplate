@@ -4,7 +4,7 @@ const { config } = require('./wdio.shared.conf');
 // ============
 // Specs
 // ============
-config.cucumberOpts.require = ['./tests/specs/**/app*.spec.js'];
+config.cucumberOpts.require = ['./tests/steps/**/app*.steps.js'];
 
 // ============
 // Capabilities
